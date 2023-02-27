@@ -99,7 +99,7 @@ section div:first-child {
 }
 .category img {
   position: absolute;
-  top: -28px;
+  top: -24px;
   left: 28px;
 }
 .category h2 {
@@ -143,4 +143,85 @@ footer a {
   font-weight: 700;
   color: white;
 }
-@media (min-width: 768px);
+@media (min-width: 768px) {
+  main {
+    width: 100%;
+    overflow: hidden;
+  }
+  .upsection {
+    width: 93%;
+    margin: 24px auto;
+    margin-bottom: 38px;
+  }
+  .mainsection {
+    display: flex;
+    position: relative;
+  }
+  .title {
+    width: 50%;
+    margin: 0 39px;
+    margin-bottom: 201px;
+  }
+  .mainpicture img {
+    position: absolute;
+    top: -250px;
+    right: -300px;
+  }
+  section div:first-child,
+  .category {
+    box-sizing: border-box;
+    width: 339px;
+  }
+  section div:first-child {
+    margin: 40px auto 0 auto;
+    padding: 56px 30px;
+  }
+  .category {
+    position: relative;
+    margin: 40px auto 0 auto;
+    padding: 0 20px 0 20px;
+  }
+}
+@media (min-width: 1024px) {
+  body {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  /* main {
+      width: 100%;
+      overflow: hidden;
+    } */
+  .upsection {
+    width: 80%;
+    margin: 24px auto;
+    margin-bottom: 178px;
+  }
+  /* .mainsection {
+    display: flex;
+    position: relative;
+  } */
+  .title {
+    width: 24%;
+    margin: 10%;
+    margin-top: 0;
+  }
+  .mainpicture img {
+    /* position: absolute; */
+    top: -500px;
+    right: -400px;
+  }
+  section div:first-child,
+  .category {
+    box-sizing: border-box;
+    width: 339px;
+  }
+  section div:first-child {
+    margin: 40px auto 0 auto;
+    padding: 56px 30px;
+  }
+  .category {
+    position: relative;
+    margin: 40px auto 0 auto;
+    padding: 0 20px 0 20px;
+  }
+}
