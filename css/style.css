@@ -187,26 +187,18 @@ footer a {
     max-width: 1440px;
     margin: 0 auto;
   }
-  /* main {
-      width: 100%;
-      overflow: hidden;
-    } */
   .upsection {
     width: 80%;
     margin: 24px auto;
     margin-bottom: 178px;
   }
-  /* .mainsection {
-    display: flex;
-    position: relative;
-  } */
   .title {
     width: 24%;
     margin: 10%;
     margin-top: 0;
+    margin-bottom: 200px;
   }
   .mainpicture img {
-    /* position: absolute; */
     top: -500px;
     right: -400px;
   }
